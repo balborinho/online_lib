@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0.0",
-  "asset_size_bytes": 101420,
-  "asset_count": 1,
-  "file_count": 1,
+  "asset_size_bytes": 716173,
+  "asset_count": 4,
+  "file_count": 4,
   "pages": [
     {
       "url": "_v1/assets-00000.json",
-      "hash": "SHA256:160c151dd19d4e2af999222b73b176cdfcd1b57a6f700eb4d802ac1a51ce8027"
+      "hash": "SHA256:e03cb0806cb7e6bc05347296e8a9eb33012a4cb9b06391f4d20230733f67fc05"
     }
   ],
   "catalogs": [
@@ -23,6 +23,20 @@
         "722c1e8f-41cc-4f87-9da0-4def6a7a4496"
       ],
       "simple_name": "Models-Backgrounds"
+    },
+    {
+      "path": "VFX",
+      "uuids": [
+        "5fb3b8a4-ba38-4ead-bead-cc5b521002fb"
+      ],
+      "simple_name": "VFX"
+    },
+    {
+      "path": "VFX/Bolts",
+      "uuids": [
+        "7b265fe2-bcd5-4693-af4d-321af001bf3b"
+      ],
+      "simple_name": "VFX-Bolts"
     }
   ]
 }

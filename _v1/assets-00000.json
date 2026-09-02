@@ -1,6 +1,6 @@
 {
-  "asset_count": 1,
-  "file_count": 1,
+  "asset_count": 4,
+  "file_count": 4,
   "assets": [
     {
       "name": "Collection 2",
@@ -18,6 +18,54 @@
       "meta": {
         "catalog_id": "722c1e8f-41cc-4f87-9da0-4def6a7a4496"
       }
+    },
+    {
+      "name": "Material",
+      "id_type": "MATERIAL",
+      "files": [
+        "Shaders/NPR/npr_vol1.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Shaders/NPR/npr_vol1_thumbnails/Material/material.webp",
+        "hash": "SHA256:4ce48920cb3d26ce6b82226a69d15e5621fe9fb8d287f0e0b0435296fb433ec2"
+      }
+    },
+    {
+      "name": "Electricline",
+      "id_type": "COLLECTION",
+      "files": [
+        "VFX/Bolts/Electricline.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "VFX/Bolts/Electricline_thumbnails/Collection/electricline.webp",
+        "hash": "SHA256:88d1065208a59f04e3a202958cd78d7e1eea1c95797f2c4d963d1702deb9f123"
+      },
+      "meta": {
+        "catalog_id": "7b265fe2-bcd5-4693-af4d-321af001bf3b"
+      }
+    },
+    {
+      "name": "LightningBolt",
+      "id_type": "COLLECTION",
+      "files": [
+        "VFX/Bolts/Lightningbolt.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "VFX/Bolts/Lightningbolt_thumbnails/Collection/lightningbolt.webp",
+        "hash": "SHA256:b2db4c3d45c60726df18cc5926f697ce42c4e2bde2ee0753a5b8a3abb2d58003"
+      },
+      "meta": {
+        "catalog_id": "7b265fe2-bcd5-4693-af4d-321af001bf3b"
+      }
     }
   ],
   "files": [
@@ -25,6 +73,24 @@
       "path": "Models/Background_set.blend",
       "size_in_bytes": 101420,
       "hash": "SHA256:732ba884f19933ef13d57c47057b5a944601b3330d4f6c64a879cc6393654e99",
+      "blender_version": "5.2.44"
+    },
+    {
+      "path": "Shaders/NPR/npr_vol1.blend",
+      "size_in_bytes": 196580,
+      "hash": "SHA256:d81ab4f90e31d1becc2849073629432915e0bd1702270b5e22e36db4d5c5b9de",
+      "blender_version": "5.2.44"
+    },
+    {
+      "path": "VFX/Bolts/Electricline.blend",
+      "size_in_bytes": 299103,
+      "hash": "SHA256:cf308c335205b3abe9b8467c9df5df0d89608a380642f34ab6baf00ff242b1c2",
+      "blender_version": "5.2.44"
+    },
+    {
+      "path": "VFX/Bolts/Lightningbolt.blend",
+      "size_in_bytes": 119070,
+      "hash": "SHA256:de10ea0a2ba9aa6446af6141bded23c43aff69c9a2c1ad5b0d494c7a9910d2d0",
       "blender_version": "5.2.44"
     }
   ]
