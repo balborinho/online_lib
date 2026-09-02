@@ -8,3 +8,5 @@ VERSION 1
 
 b6856d4b-5992-4af4-a763-6d47b414d57e:Models:Models
 722c1e8f-41cc-4f87-9da0-4def6a7a4496:Models/Backgrounds:Models-Backgrounds
+5fb3b8a4-ba38-4ead-bead-cc5b521002fb:VFX:VFX
+7b265fe2-bcd5-4693-af4d-321af001bf3b:VFX/Bolts:VFX-Bolts
