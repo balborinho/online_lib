@@ -1,0 +1,31 @@
+{
+  "asset_count": 1,
+  "file_count": 1,
+  "assets": [
+    {
+      "name": "Collection 2",
+      "id_type": "COLLECTION",
+      "files": [
+        "Models/Background_set.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Models/Background_set_thumbnails/Collection/collection-2.webp",
+        "hash": "SHA256:74afde50df903e0aa2ca4e8e12598709260e196ce768711ad4e5646caae8bbed"
+      },
+      "meta": {
+        "catalog_id": "722c1e8f-41cc-4f87-9da0-4def6a7a4496"
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "Models/Background_set.blend",
+      "size_in_bytes": 101420,
+      "hash": "SHA256:732ba884f19933ef13d57c47057b5a944601b3330d4f6c64a879cc6393654e99",
+      "blender_version": "5.2.44"
+    }
+  ]
+}
