@@ -422,9 +422,6 @@
       "thumbnail": {
         "url": "Skies/worlds_thumbnails/World/boiler_room_2khdr.webp",
         "hash": "SHA256:4617bed5c0822d31c34f7b828da27f18f57a9499d556adcf34dc02eaf943171e"
-      },
-      "meta": {
-        "catalog_id": "65dae695-b29e-4b6d-9935-abc72f431a0a"
       }
     },
     {
@@ -439,9 +436,6 @@
       "thumbnail": {
         "url": "Skies/worlds_thumbnails/World/cityexr.webp",
         "hash": "SHA256:39132ecd265aa4170a96063bfe2159778a6aa97a28e426af5cd03014eb50a515"
-      },
-      "meta": {
-        "catalog_id": "2c0cfbc2-8b4c-4498-9c0a-2a1fea264cd4"
       }
     },
     {
@@ -456,9 +450,6 @@
       "thumbnail": {
         "url": "Skies/worlds_thumbnails/World/forestexr.webp",
         "hash": "SHA256:5ae09183ef81b6bb4d13908426199bf4a24a88f9cd9e191f361d59ff08c8f5ed"
-      },
-      "meta": {
-        "catalog_id": "2c0cfbc2-8b4c-4498-9c0a-2a1fea264cd4"
       }
     },
     {
@@ -473,9 +464,6 @@
       "thumbnail": {
         "url": "Skies/worlds_thumbnails/World/freestylizedcom-sky_04_2kpng.webp",
         "hash": "SHA256:5eea6b6bccd1615077e23a2383e2eb449c45654d0aff3a4ad1e9d44782fb603f"
-      },
-      "meta": {
-        "catalog_id": "d0ed8e20-1400-4b8b-8a43-dfda780ffdb9"
       }
     },
     {
@@ -490,9 +478,6 @@
       "thumbnail": {
         "url": "Skies/worlds_thumbnails/World/freestylizedcom-sky_05_2kpng.webp",
         "hash": "SHA256:d18d1e3b802461f6b04b5972e921692c07fd8cae11f6dbc24845016a3dabba0b"
-      },
-      "meta": {
-        "catalog_id": "d0ed8e20-1400-4b8b-8a43-dfda780ffdb9"
       }
     },
     {
@@ -868,8 +853,8 @@
     },
     {
       "path": "Skies/worlds.blend",
-      "size_in_bytes": 29786539,
-      "hash": "SHA256:ca97ad7d8b01a5130bcf090d717df5906afd117fba618789396be5e1a3fc5c4f",
+      "size_in_bytes": 29785489,
+      "hash": "SHA256:c7717ade1c2c328c161191463368d89fe846b1a7f0db2360dd8c8db75e9c27fa",
       "blender_version": "5.2.45"
     },
     {
