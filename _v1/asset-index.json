@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0.0",
-  "asset_size_bytes": 716173,
-  "asset_count": 4,
-  "file_count": 4,
+  "asset_size_bytes": 44254929,
+  "asset_count": 50,
+  "file_count": 5,
   "pages": [
     {
       "url": "_v1/assets-00000.json",
-      "hash": "SHA256:e03cb0806cb7e6bc05347296e8a9eb33012a4cb9b06391f4d20230733f67fc05"
+      "hash": "SHA256:0984d79c91b03ca279e831905ac4cc6dfce1ed3ff2d40fc0b836bcd21f3e5ccc"
     }
   ],
   "catalogs": [
@@ -25,6 +25,69 @@
       "simple_name": "Models-Backgrounds"
     },
     {
+      "path": "NPR",
+      "uuids": [
+        "69215e16-a3b7-437f-a8bd-845cdde46558"
+      ],
+      "simple_name": "NPR"
+    },
+    {
+      "path": "NPR/Cel shading",
+      "uuids": [
+        "382c2a50-714b-46dc-9218-04c8ead0a560"
+      ],
+      "simple_name": "NPR-Cel shading"
+    },
+    {
+      "path": "NPR/Gurika set",
+      "uuids": [
+        "6bc41806-bc92-4dcb-9bb9-54baccae9767"
+      ],
+      "simple_name": "NPR-Gurika set"
+    },
+    {
+      "path": "NPR/Kevandram",
+      "uuids": [
+        "0086be88-5da3-4025-af1e-da053da408b6"
+      ],
+      "simple_name": "NPR-Kevandram"
+    },
+    {
+      "path": "NPR/Lassyla set",
+      "uuids": [
+        "c72521c9-3440-403c-8697-6c6a11f94407"
+      ],
+      "simple_name": "NPR-Lassyla set"
+    },
+    {
+      "path": "NPR/Other",
+      "uuids": [
+        "b35746f1-d66a-4768-bea9-122ea9b81396"
+      ],
+      "simple_name": "NPR-Other"
+    },
+    {
+      "path": "NPR/Painterly",
+      "uuids": [
+        "afb1eb4b-7c21-4652-9079-44f459a4109d"
+      ],
+      "simple_name": "NPR-Painterly"
+    },
+    {
+      "path": "NPR/PseudoPainter",
+      "uuids": [
+        "234bbf1c-0ecb-457d-af40-45b7739f000e"
+      ],
+      "simple_name": "NPR-PseudoPainter"
+    },
+    {
+      "path": "NPR/Sketch",
+      "uuids": [
+        "59944aeb-b0d6-48a3-86f3-3286735d3a97"
+      ],
+      "simple_name": "NPR-Sketch"
+    },
+    {
       "path": "VFX",
       "uuids": [
         "5fb3b8a4-ba38-4ead-bead-cc5b521002fb"
@@ -37,6 +100,34 @@
         "7b265fe2-bcd5-4693-af4d-321af001bf3b"
       ],
       "simple_name": "VFX-Bolts"
+    },
+    {
+      "path": "Worlds",
+      "uuids": [
+        "fd31df0a-9ebb-4bb7-b8bc-e935e7777851"
+      ],
+      "simple_name": "Worlds"
+    },
+    {
+      "path": "Worlds/Blender",
+      "uuids": [
+        "2c0cfbc2-8b4c-4498-9c0a-2a1fea264cd4"
+      ],
+      "simple_name": "Worlds-Blender"
+    },
+    {
+      "path": "Worlds/interior",
+      "uuids": [
+        "65dae695-b29e-4b6d-9935-abc72f431a0a"
+      ],
+      "simple_name": "Worlds-interior"
+    },
+    {
+      "path": "Worlds/stylized",
+      "uuids": [
+        "d0ed8e20-1400-4b8b-8a43-dfda780ffdb9"
+      ],
+      "simple_name": "Worlds-stylized"
     }
   ]
 }

@@ -1,9 +1,9 @@
 {
-  "asset_count": 4,
-  "file_count": 4,
+  "asset_count": 50,
+  "file_count": 5,
   "assets": [
     {
-      "name": "Collection 2",
+      "name": "Stage",
       "id_type": "COLLECTION",
       "files": [
         "Models/Background_set.blend"
@@ -12,15 +12,15 @@
         "min": "5.2"
       },
       "thumbnail": {
-        "url": "Models/Background_set_thumbnails/Collection/collection-2.webp",
-        "hash": "SHA256:74afde50df903e0aa2ca4e8e12598709260e196ce768711ad4e5646caae8bbed"
+        "url": "Models/Background_set_thumbnails/Collection/stage.webp",
+        "hash": "SHA256:ea8fd6ef5e9e48d5916885deacdec93ca56cb3549dd5ab5571b9ed5308871c84"
       },
       "meta": {
         "catalog_id": "722c1e8f-41cc-4f87-9da0-4def6a7a4496"
       }
     },
     {
-      "name": "Material",
+      "name": "Basic Paint",
       "id_type": "MATERIAL",
       "files": [
         "Shaders/NPR/npr_vol1.blend"
@@ -29,8 +29,793 @@
         "min": "5.2"
       },
       "thumbnail": {
-        "url": "Shaders/NPR/npr_vol1_thumbnails/Material/material.webp",
+        "url": "Shaders/NPR/npr_vol1_thumbnails/Material/basic-paint.webp",
+        "hash": "SHA256:e48d4e1ff940202f08798ae791469fd250cb98c56c3815e866d7dfe1b1b7bb99"
+      },
+      "meta": {
+        "catalog_id": "afb1eb4b-7c21-4652-9079-44f459a4109d"
+      }
+    },
+    {
+      "name": "Basic Paint with silhouette",
+      "id_type": "MATERIAL",
+      "files": [
+        "Shaders/NPR/npr_vol1.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Shaders/NPR/npr_vol1_thumbnails/Material/basic-paint-with-silhouette.webp",
+        "hash": "SHA256:2540fd6b9ef8456f07855507ffa41ab4f30327b0a58f86279cff8cdce574c2f3"
+      },
+      "meta": {
+        "catalog_id": "afb1eb4b-7c21-4652-9079-44f459a4109d"
+      }
+    },
+    {
+      "name": "Basic Toon",
+      "id_type": "MATERIAL",
+      "files": [
+        "Shaders/NPR/npr_vol1.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Shaders/NPR/npr_vol1_thumbnails/Material/basic-toon.webp",
+        "hash": "SHA256:847b25c13f15cf595ba2708f5636054827bdd78999721140dbea196c7b0f07ee"
+      },
+      "meta": {
+        "catalog_id": "382c2a50-714b-46dc-9218-04c8ead0a560"
+      }
+    },
+    {
+      "name": "Basic Toon with silhouette",
+      "id_type": "MATERIAL",
+      "files": [
+        "Shaders/NPR/npr_vol1.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Shaders/NPR/npr_vol1_thumbnails/Material/basic-toon-with-silhouette.webp",
+        "hash": "SHA256:d75953af28f9b29cab8bb430fd868cab9ed7adcfe40f4bfb32b789886cc94cc8"
+      },
+      "meta": {
+        "catalog_id": "382c2a50-714b-46dc-9218-04c8ead0a560"
+      }
+    },
+    {
+      "name": "Eevee ToonShader",
+      "id_type": "MATERIAL",
+      "files": [
+        "Shaders/NPR/npr_vol1.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Shaders/NPR/npr_vol1_thumbnails/Material/eevee-toonshader.webp",
+        "hash": "SHA256:1ba85ca3943cbcde7a5def596b85723b6400505158c39646ee0b4d874f2706b5"
+      },
+      "meta": {
+        "catalog_id": "382c2a50-714b-46dc-9218-04c8ead0a560"
+      }
+    },
+    {
+      "name": "Hatching",
+      "id_type": "MATERIAL",
+      "files": [
+        "Shaders/NPR/npr_vol1.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Shaders/NPR/npr_vol1_thumbnails/Material/hatching.webp",
+        "hash": "SHA256:da2d75f608083d663192e3a3877f2c211a220b81ab68a964cb750fed8145c052"
+      },
+      "meta": {
+        "catalog_id": "b35746f1-d66a-4768-bea9-122ea9b81396"
+      }
+    },
+    {
+      "name": "Hatching shadow",
+      "id_type": "MATERIAL",
+      "files": [
+        "Shaders/NPR/npr_vol1.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Shaders/NPR/npr_vol1_thumbnails/Material/hatching-shadow.webp",
         "hash": "SHA256:4ce48920cb3d26ce6b82226a69d15e5621fe9fb8d287f0e0b0435296fb433ec2"
+      },
+      "meta": {
+        "catalog_id": "b35746f1-d66a-4768-bea9-122ea9b81396"
+      }
+    },
+    {
+      "name": "Kevandram Simple Toon Shader 1",
+      "id_type": "MATERIAL",
+      "files": [
+        "Shaders/NPR/npr_vol1.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Shaders/NPR/npr_vol1_thumbnails/Material/kevandram-simple-toon-shader-1.webp",
+        "hash": "SHA256:1223b775f5238c324eb250df2c27989f4f16f57cdf2b61e097f66d59571862aa"
+      },
+      "meta": {
+        "catalog_id": "0086be88-5da3-4025-af1e-da053da408b6"
+      }
+    },
+    {
+      "name": "Kevandram Simple Toon Shader 2",
+      "id_type": "MATERIAL",
+      "files": [
+        "Shaders/NPR/npr_vol1.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Shaders/NPR/npr_vol1_thumbnails/Material/kevandram-simple-toon-shader-2.webp",
+        "hash": "SHA256:175d23c90882fdf837aa54576fd6761ebf7b6449d8b04fef63e34fd442e3bfa1"
+      },
+      "meta": {
+        "catalog_id": "0086be88-5da3-4025-af1e-da053da408b6"
+      }
+    },
+    {
+      "name": "Kevandram Simple Toon Shader 3",
+      "id_type": "MATERIAL",
+      "files": [
+        "Shaders/NPR/npr_vol1.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Shaders/NPR/npr_vol1_thumbnails/Material/kevandram-simple-toon-shader-3.webp",
+        "hash": "SHA256:163a1062e20e58149c0018d043fb1a70dc000295a5c372469fa05160004edc16"
+      },
+      "meta": {
+        "catalog_id": "0086be88-5da3-4025-af1e-da053da408b6"
+      }
+    },
+    {
+      "name": "Kevandram Simple Toon Shader 4",
+      "id_type": "MATERIAL",
+      "files": [
+        "Shaders/NPR/npr_vol1.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Shaders/NPR/npr_vol1_thumbnails/Material/kevandram-simple-toon-shader-4.webp",
+        "hash": "SHA256:b97caf50b6cf196998c44268a843f549ff6df19bde11f328d866e7ce60efa230"
+      },
+      "meta": {
+        "catalog_id": "0086be88-5da3-4025-af1e-da053da408b6"
+      }
+    },
+    {
+      "name": "Kevandram Stipple",
+      "id_type": "MATERIAL",
+      "files": [
+        "Shaders/NPR/npr_vol1.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Shaders/NPR/npr_vol1_thumbnails/Material/kevandram-stipple.webp",
+        "hash": "SHA256:5aaf7a6a3e6a9f82b3908807780681a18e0ba7e62b83d689223e52b3985c8416"
+      },
+      "meta": {
+        "catalog_id": "0086be88-5da3-4025-af1e-da053da408b6"
+      }
+    },
+    {
+      "name": "Lassyla Material",
+      "id_type": "MATERIAL",
+      "files": [
+        "Shaders/NPR/npr_vol1.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Shaders/NPR/npr_vol1_thumbnails/Material/lassyla-material.webp",
+        "hash": "SHA256:ead41fb7ff2bbdc56e931caa393ad64058ddc109b861919c953349c4f10fa4c7"
+      },
+      "meta": {
+        "catalog_id": "c72521c9-3440-403c-8697-6c6a11f94407"
+      }
+    },
+    {
+      "name": "Lassyla Material Green",
+      "id_type": "MATERIAL",
+      "files": [
+        "Shaders/NPR/npr_vol1.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Shaders/NPR/npr_vol1_thumbnails/Material/lassyla-material-green.webp",
+        "hash": "SHA256:3e2363f6612bbf8039c43d3da30d24031d2cba4dcbf1b99a537ba6105c268687"
+      },
+      "meta": {
+        "catalog_id": "c72521c9-3440-403c-8697-6c6a11f94407"
+      }
+    },
+    {
+      "name": "Lassyla Material Red",
+      "id_type": "MATERIAL",
+      "files": [
+        "Shaders/NPR/npr_vol1.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Shaders/NPR/npr_vol1_thumbnails/Material/lassyla-material-red.webp",
+        "hash": "SHA256:a1ea32fadf009f3cc6143d0368e0cbfcb0a8931369bd75118e6ee80cc9da8ea7"
+      },
+      "meta": {
+        "catalog_id": "c72521c9-3440-403c-8697-6c6a11f94407"
+      }
+    },
+    {
+      "name": "Lassyla Material simple",
+      "id_type": "MATERIAL",
+      "files": [
+        "Shaders/NPR/npr_vol1.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Shaders/NPR/npr_vol1_thumbnails/Material/lassyla-material-simple.webp",
+        "hash": "SHA256:1a249a7684af54bc658ba1d500fe20bcf2134878603860459898f3725ead2069"
+      },
+      "meta": {
+        "catalog_id": "c72521c9-3440-403c-8697-6c6a11f94407"
+      }
+    },
+    {
+      "name": "Lassyla_clouds",
+      "id_type": "MATERIAL",
+      "files": [
+        "Shaders/NPR/npr_vol1.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Shaders/NPR/npr_vol1_thumbnails/Material/lassyla_clouds.webp",
+        "hash": "SHA256:9d81159f1b21284468bb032191b9bc4d104829194f387849bcc511fb6cfa9223"
+      },
+      "meta": {
+        "catalog_id": "c72521c9-3440-403c-8697-6c6a11f94407"
+      }
+    },
+    {
+      "name": "Painterly shader inspired by Gurika",
+      "id_type": "MATERIAL",
+      "files": [
+        "Shaders/NPR/npr_vol1.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Shaders/NPR/npr_vol1_thumbnails/Material/painterly-shader-inspired-by-gurika.webp",
+        "hash": "SHA256:ad6b8658dfc54c159f1e0261ac505beb0fcf9e6be36810c7178e5494ef95162c"
+      },
+      "meta": {
+        "catalog_id": "6bc41806-bc92-4dcb-9bb9-54baccae9767"
+      }
+    },
+    {
+      "name": "Painterly_shader",
+      "id_type": "MATERIAL",
+      "files": [
+        "Shaders/NPR/npr_vol1.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Shaders/NPR/npr_vol1_thumbnails/Material/painterly_shader.webp",
+        "hash": "SHA256:6a6c04571b9db894a11c92b6062890e59ccad9becc15738bb9a0459a863ab02a"
+      },
+      "meta": {
+        "catalog_id": "afb1eb4b-7c21-4652-9079-44f459a4109d"
+      }
+    },
+    {
+      "name": "Painterly_shader by Gurika",
+      "id_type": "MATERIAL",
+      "files": [
+        "Shaders/NPR/npr_vol1.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Shaders/NPR/npr_vol1_thumbnails/Material/painterly_shader-by-gurika.webp",
+        "hash": "SHA256:9c2ad3482cfbe09343e48cb46c6b2c31f3cf0f139908d0b3ca1a1fb17e7313ec"
+      },
+      "meta": {
+        "catalog_id": "6bc41806-bc92-4dcb-9bb9-54baccae9767"
+      }
+    },
+    {
+      "name": "Pele",
+      "id_type": "MATERIAL",
+      "files": [
+        "Shaders/NPR/npr_vol1.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Shaders/NPR/npr_vol1_thumbnails/Material/pele.webp",
+        "hash": "SHA256:ea5867fa2b379779be8b01175a689cee54b46ccea11da2e889b87cb39bc872e2"
+      },
+      "meta": {
+        "catalog_id": "382c2a50-714b-46dc-9218-04c8ead0a560"
+      }
+    },
+    {
+      "name": "PseudoPainter_2",
+      "id_type": "MATERIAL",
+      "files": [
+        "Shaders/NPR/npr_vol1.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Shaders/NPR/npr_vol1_thumbnails/Material/pseudopainter_2.webp",
+        "hash": "SHA256:a099cab1e488da4da5827cc1591b1207f48a49258cd5049bb5539aca59f67b20"
+      },
+      "meta": {
+        "catalog_id": "234bbf1c-0ecb-457d-af40-45b7739f000e"
+      }
+    },
+    {
+      "name": "PseudoPainterMat_1",
+      "id_type": "MATERIAL",
+      "files": [
+        "Shaders/NPR/npr_vol1.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Shaders/NPR/npr_vol1_thumbnails/Material/pseudopaintermat_1.webp",
+        "hash": "SHA256:61598945dc42dd2b5e31db89f0c7ca34b1021a6c74d238caef5f276f58874c4c"
+      },
+      "meta": {
+        "catalog_id": "234bbf1c-0ecb-457d-af40-45b7739f000e"
+      }
+    },
+    {
+      "name": "boiler_room_2k.hdr",
+      "id_type": "WORLD",
+      "files": [
+        "Skies/worlds.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Skies/worlds_thumbnails/World/boiler_room_2khdr.webp",
+        "hash": "SHA256:4617bed5c0822d31c34f7b828da27f18f57a9499d556adcf34dc02eaf943171e"
+      },
+      "meta": {
+        "catalog_id": "65dae695-b29e-4b6d-9935-abc72f431a0a"
+      }
+    },
+    {
+      "name": "city.exr",
+      "id_type": "WORLD",
+      "files": [
+        "Skies/worlds.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Skies/worlds_thumbnails/World/cityexr.webp",
+        "hash": "SHA256:39132ecd265aa4170a96063bfe2159778a6aa97a28e426af5cd03014eb50a515"
+      },
+      "meta": {
+        "catalog_id": "2c0cfbc2-8b4c-4498-9c0a-2a1fea264cd4"
+      }
+    },
+    {
+      "name": "forest.exr",
+      "id_type": "WORLD",
+      "files": [
+        "Skies/worlds.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Skies/worlds_thumbnails/World/forestexr.webp",
+        "hash": "SHA256:5ae09183ef81b6bb4d13908426199bf4a24a88f9cd9e191f361d59ff08c8f5ed"
+      },
+      "meta": {
+        "catalog_id": "2c0cfbc2-8b4c-4498-9c0a-2a1fea264cd4"
+      }
+    },
+    {
+      "name": "freestylized.com sky_04_2k.png",
+      "id_type": "WORLD",
+      "files": [
+        "Skies/worlds.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Skies/worlds_thumbnails/World/freestylizedcom-sky_04_2kpng.webp",
+        "hash": "SHA256:5eea6b6bccd1615077e23a2383e2eb449c45654d0aff3a4ad1e9d44782fb603f"
+      },
+      "meta": {
+        "catalog_id": "d0ed8e20-1400-4b8b-8a43-dfda780ffdb9"
+      }
+    },
+    {
+      "name": "freestylized.com sky_05_2k.png",
+      "id_type": "WORLD",
+      "files": [
+        "Skies/worlds.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Skies/worlds_thumbnails/World/freestylizedcom-sky_05_2kpng.webp",
+        "hash": "SHA256:d18d1e3b802461f6b04b5972e921692c07fd8cae11f6dbc24845016a3dabba0b"
+      },
+      "meta": {
+        "catalog_id": "d0ed8e20-1400-4b8b-8a43-dfda780ffdb9"
+      }
+    },
+    {
+      "name": "freestylized.com sky_101_2k.png",
+      "id_type": "WORLD",
+      "files": [
+        "Skies/worlds.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Skies/worlds_thumbnails/World/freestylizedcom-sky_101_2kpng.webp",
+        "hash": "SHA256:97a99f636cae6e463cf7dcf1060982b37d49842f5a6fae536e1331b8410563a4"
+      },
+      "meta": {
+        "catalog_id": "d0ed8e20-1400-4b8b-8a43-dfda780ffdb9"
+      }
+    },
+    {
+      "name": "freestylized.com sky_103_2k.png",
+      "id_type": "WORLD",
+      "files": [
+        "Skies/worlds.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Skies/worlds_thumbnails/World/freestylizedcom-sky_103_2kpng.webp",
+        "hash": "SHA256:54ec5cb1818a1a3b11e33949a54ea9b8389f727921002d07dfde9fa2ec20de96"
+      },
+      "meta": {
+        "catalog_id": "d0ed8e20-1400-4b8b-8a43-dfda780ffdb9"
+      }
+    },
+    {
+      "name": "freestylized.com sky_116_2k.png",
+      "id_type": "WORLD",
+      "files": [
+        "Skies/worlds.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Skies/worlds_thumbnails/World/freestylizedcom-sky_116_2kpng.webp",
+        "hash": "SHA256:f1235535d71658ba7298757f65f56c4226d9d7141f2fea7bb0e630864bdcf50d"
+      },
+      "meta": {
+        "catalog_id": "d0ed8e20-1400-4b8b-8a43-dfda780ffdb9"
+      }
+    },
+    {
+      "name": "freestylized.com sky_123_2k.png",
+      "id_type": "WORLD",
+      "files": [
+        "Skies/worlds.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Skies/worlds_thumbnails/World/freestylizedcom-sky_123_2kpng.webp",
+        "hash": "SHA256:f1616b9d5065eb718ca419ca67f3379c2c34d5bd75baec55929aef3e2bd8b6ad"
+      },
+      "meta": {
+        "catalog_id": "d0ed8e20-1400-4b8b-8a43-dfda780ffdb9"
+      }
+    },
+    {
+      "name": "freestylized.com sky_124_2k.png",
+      "id_type": "WORLD",
+      "files": [
+        "Skies/worlds.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Skies/worlds_thumbnails/World/freestylizedcom-sky_124_2kpng.webp",
+        "hash": "SHA256:97d3fdaa253e11d9f39ae07bb4555b3c4d20da7987ab79236fbff959107a4bab"
+      },
+      "meta": {
+        "catalog_id": "d0ed8e20-1400-4b8b-8a43-dfda780ffdb9"
+      }
+    },
+    {
+      "name": "freestylized.com sky_132_2k.png",
+      "id_type": "WORLD",
+      "files": [
+        "Skies/worlds.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Skies/worlds_thumbnails/World/freestylizedcom-sky_132_2kpng.webp",
+        "hash": "SHA256:75d651fc6d5fd18d6c90d5b2ecd3c731ba02421e122c1a67d14262883b0648b6"
+      },
+      "meta": {
+        "catalog_id": "d0ed8e20-1400-4b8b-8a43-dfda780ffdb9"
+      }
+    },
+    {
+      "name": "freestylized.com sky_17_2k.png",
+      "id_type": "WORLD",
+      "files": [
+        "Skies/worlds.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Skies/worlds_thumbnails/World/freestylizedcom-sky_17_2kpng.webp",
+        "hash": "SHA256:8d84e9e2bb2b827a9040efb211a276f663ee0ab1c126d1e92ddfe86b79f24fd4"
+      },
+      "meta": {
+        "catalog_id": "d0ed8e20-1400-4b8b-8a43-dfda780ffdb9"
+      }
+    },
+    {
+      "name": "freestylized.com sky_77_2k.png",
+      "id_type": "WORLD",
+      "files": [
+        "Skies/worlds.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Skies/worlds_thumbnails/World/freestylizedcom-sky_77_2kpng.webp",
+        "hash": "SHA256:45257da4ea3f6c5f6dce9a2947a71550ecaff49c3e515225785cd7f48d748733"
+      },
+      "meta": {
+        "catalog_id": "d0ed8e20-1400-4b8b-8a43-dfda780ffdb9"
+      }
+    },
+    {
+      "name": "interior.exr",
+      "id_type": "WORLD",
+      "files": [
+        "Skies/worlds.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Skies/worlds_thumbnails/World/interiorexr.webp",
+        "hash": "SHA256:e71f6823132e29ec1a83d9b272d0d9c94414ca612867b006b88baa305c897a8a"
+      },
+      "meta": {
+        "catalog_id": "2c0cfbc2-8b4c-4498-9c0a-2a1fea264cd4"
+      }
+    },
+    {
+      "name": "noon_grass_1k.hdr",
+      "id_type": "WORLD",
+      "files": [
+        "Skies/worlds.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Skies/worlds_thumbnails/World/noon_grass_1khdr.webp",
+        "hash": "SHA256:7dc4f9ed286899b7aaace3901af4f88a78d994791fe34be2fb133133e81b2aac"
+      },
+      "meta": {
+        "catalog_id": "fd31df0a-9ebb-4bb7-b8bc-e935e7777851"
+      }
+    },
+    {
+      "name": "sculpture_exhibition_2k.hdr",
+      "id_type": "WORLD",
+      "files": [
+        "Skies/worlds.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Skies/worlds_thumbnails/World/sculpture_exhibition_2khdr.webp",
+        "hash": "SHA256:85204899b541cbb0c27edc7cb210b6e59c2be822b846ee01ca6410d9842f3830"
+      },
+      "meta": {
+        "catalog_id": "65dae695-b29e-4b6d-9935-abc72f431a0a"
+      }
+    },
+    {
+      "name": "Soft Box A.exr",
+      "id_type": "WORLD",
+      "files": [
+        "Skies/worlds.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Skies/worlds_thumbnails/World/soft-box-aexr.webp",
+        "hash": "SHA256:05c9631c43c35a0b8568df20d35bb70abaa7a1c662d862d268fc45e71e051a99"
+      },
+      "meta": {
+        "catalog_id": "65dae695-b29e-4b6d-9935-abc72f431a0a"
+      }
+    },
+    {
+      "name": "studio.exr",
+      "id_type": "WORLD",
+      "files": [
+        "Skies/worlds.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Skies/worlds_thumbnails/World/studioexr.webp",
+        "hash": "SHA256:ca579bf06669d2f189caea7c0c23b2466074dc9598b42c5456d97ab2fd99cb7b"
+      },
+      "meta": {
+        "catalog_id": "2c0cfbc2-8b4c-4498-9c0a-2a1fea264cd4"
+      }
+    },
+    {
+      "name": "studio033_tn.jpg",
+      "id_type": "WORLD",
+      "files": [
+        "Skies/worlds.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Skies/worlds_thumbnails/World/studio033_tnjpg.webp",
+        "hash": "SHA256:2868bf729bc4e6ca2f1c49edef5f0eb8a6029a38be86138e08c953288007443c"
+      },
+      "meta": {
+        "catalog_id": "65dae695-b29e-4b6d-9935-abc72f431a0a"
+      }
+    },
+    {
+      "name": "studio_small_01_1k.hdr",
+      "id_type": "WORLD",
+      "files": [
+        "Skies/worlds.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Skies/worlds_thumbnails/World/studio_small_01_1khdr.webp",
+        "hash": "SHA256:ff6d41c14174f4d941442768308f89001dc624a338bf3430445537356352edbc"
+      },
+      "meta": {
+        "catalog_id": "65dae695-b29e-4b6d-9935-abc72f431a0a"
+      }
+    },
+    {
+      "name": "sunrise.exr",
+      "id_type": "WORLD",
+      "files": [
+        "Skies/worlds.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Skies/worlds_thumbnails/World/sunriseexr.webp",
+        "hash": "SHA256:09dc2c2947ba43f6791ec99c55ec3d48e426d8920fd0b15f664d055669537d1a"
+      },
+      "meta": {
+        "catalog_id": "2c0cfbc2-8b4c-4498-9c0a-2a1fea264cd4"
+      }
+    },
+    {
+      "name": "sunset.exr",
+      "id_type": "WORLD",
+      "files": [
+        "Skies/worlds.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Skies/worlds_thumbnails/World/sunsetexr.webp",
+        "hash": "SHA256:c084c63f0162c8558c474646611afcfcd52bb1074bc79f76a5750c775e8fc493"
+      },
+      "meta": {
+        "catalog_id": "2c0cfbc2-8b4c-4498-9c0a-2a1fea264cd4"
+      }
+    },
+    {
+      "name": "tiergarten_1k.hdr",
+      "id_type": "WORLD",
+      "files": [
+        "Skies/worlds.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Skies/worlds_thumbnails/World/tiergarten_1khdr.webp",
+        "hash": "SHA256:ee211a666f8bb25ea13d374f62abe2e0fb63145646bd6089006ae0bbc65d63d2"
+      },
+      "meta": {
+        "catalog_id": "fd31df0a-9ebb-4bb7-b8bc-e935e7777851"
+      }
+    },
+    {
+      "name": "winter_lake_01_1k.hdr",
+      "id_type": "WORLD",
+      "files": [
+        "Skies/worlds.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Skies/worlds_thumbnails/World/winter_lake_01_1khdr.webp",
+        "hash": "SHA256:6a06c5949969619551d4dcff69b4aa21abd6e897532ad36150b562ce85aee79d"
+      },
+      "meta": {
+        "catalog_id": "fd31df0a-9ebb-4bb7-b8bc-e935e7777851"
       }
     },
     {
@@ -71,15 +856,21 @@
   "files": [
     {
       "path": "Models/Background_set.blend",
-      "size_in_bytes": 101420,
-      "hash": "SHA256:732ba884f19933ef13d57c47057b5a944601b3330d4f6c64a879cc6393654e99",
-      "blender_version": "5.2.44"
+      "size_in_bytes": 109538,
+      "hash": "SHA256:fa651b07833cc6f90e241feb64258369f04cfe95c50a86373f30e466c7f9419b",
+      "blender_version": "5.2.45"
     },
     {
       "path": "Shaders/NPR/npr_vol1.blend",
-      "size_in_bytes": 196580,
-      "hash": "SHA256:d81ab4f90e31d1becc2849073629432915e0bd1702270b5e22e36db4d5c5b9de",
-      "blender_version": "5.2.44"
+      "size_in_bytes": 43157128,
+      "hash": "SHA256:492abb4da0afae4576b5399b8b2a05f1b987a73393eab85a8a670b15593a9fd4",
+      "blender_version": "5.2.45"
+    },
+    {
+      "path": "Skies/worlds.blend",
+      "size_in_bytes": 570090,
+      "hash": "SHA256:adee42a2a82a055af916ad8f788370e4a800efb33996ca57950bb8217ee02874",
+      "blender_version": "5.2.45"
     },
     {
       "path": "VFX/Bolts/Electricline.blend",
